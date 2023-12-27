@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5e3bc352ad534d49990f311e46630120" Name="Diagram1">
+        <EntityTypeShape EntityType="aSdachaModel.LoginHistory" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="aSdachaModel.merch" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aSdachaModel.orders" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="aSdachaModel.point" Width="1.5" PointX="6" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="aSdachaModel.sostav" Width="1.5" PointX="10.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="aSdachaModel.status" Width="1.5" PointX="6" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="aSdachaModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="aSdachaModel.type_user" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="aSdachaModel.users" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <AssociationConnector Association="aSdachaModel.FK_LoginHistory_users" ManuallyRouted="false" />
+        <AssociationConnector Association="aSdachaModel.FK_sostav_merch" ManuallyRouted="false" />
+        <AssociationConnector Association="aSdachaModel.FK_orders_point" ManuallyRouted="false" />
+        <AssociationConnector Association="aSdachaModel.FK_orders_status" ManuallyRouted="false" />
+        <AssociationConnector Association="aSdachaModel.FK_orders_users" ManuallyRouted="false" />
+        <AssociationConnector Association="aSdachaModel.FK_sostav_orders" ManuallyRouted="false" />
+        <AssociationConnector Association="aSdachaModel.FK_users_type_user" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
